@@ -41,7 +41,7 @@ schedule.every().day.at("23:01").do(send_text,DRINK_WATER)
 
 #schedule a text every hour between 8 and 5
 #array of hours to send a text
-hours = ["08:00", "09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00"]
+hours = ["08:00", "09:00","09:30","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00"]
 
 for hour in hours:
     schedule.every().day.at(hour).do(send_text,DRINK_WATER)
