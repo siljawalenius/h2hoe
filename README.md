@@ -1,12 +1,14 @@
-# h2hoe
-Python script that texts me every hour to drink water (it's necessary)
+# h2hoe_imessage
+ an imessage version using applescript and python
 
-# Setup (if you've not used python before)
-- if you're on a mac, download python 3.9.0 
-- run pip install twilio
-- run pip install schedule
+## Never used python before?
 
-# How to run 
-1. Clone the repo
-2. Add in your own number and twilio info to twilio_creds.py
-3. run python3 h2hoe.py
+1. download python 3.9.0 here: https://www.python.org/downloads/release/python-390/ 
+2. then run this: pip install schedule
+
+
+## How to use
+
+1. Clone the repo 
+2. Replace the number with your own imessage number
+3. run python3 h2hoe.py :) 
