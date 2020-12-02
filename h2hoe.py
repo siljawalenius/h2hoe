@@ -20,10 +20,8 @@ import time
 import random
 #from twilio_creds import cell_num, twilio_num, account_sid, token
 
-print(os.environ)
 
 cell_num=os.environ['CELLNUM']
-print(os.environ['CELLNUM'])
 twilio_num=os.environ['TWILIONUM']
 account_sid=os.environ['ACCOUNTSID']
 token=os.environ['TOKEN']
